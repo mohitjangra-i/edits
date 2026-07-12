@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mohit Jangra | Video Editor Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calligraphy-bg" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-left">
+      <img class="profile-img" src="profile.jpg" alt="Mohit Jangra profile" />
+    </div>
+    <div class="hero-content">
+      <h1>Mohit Jangra</h1>
+      <p class="role">Video Editor — Instagram Reels & Social Content</p>
+      <p class="sub">Specializing in fast, engaging edits for Instagram and short-form video.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="instagram">Instagram Reels</button>
+      <button class="filter-btn" data-category="shorts">Shorts</button>
+      <button class="filter-btn" data-category="fashion">Fashion</button>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <!-- Cards for each Instagram reel -->
+      <div class="video-card" data-category="instagram">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+1" alt="Reel 1" />
+        </div>
+        <div class="info">
+          <h3>Reel 1</h3>
+          <p>Instagram reel — trending edit style.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DT73Co0ikik/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="instagram">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+2" alt="Reel 2" />
+        </div>
+        <div class="info">
+          <h3>Reel 2</h3>
+          <p>Instagram reel — dynamic social cut.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DSr75T-D3wg/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="shorts">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+3" alt="Reel 3" />
+        </div>
+        <div class="info">
+          <h3>Reel 3</h3>
+          <p>Instagram reel — vertical storytelling.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DX_7rEtS9F2/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="fashion">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+4" alt="Reel 4" />
+        </div>
+        <div class="info">
+          <h3>Reel 4</h3>
+          <p>Instagram reel — fashion & lifestyle edit.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DXhCO4yyneH/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="instagram">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+5" alt="Reel 5" />
+        </div>
+        <div class="info">
+          <h3>Reel 5</h3>
+          <p>Instagram reel — cinematic cut.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DW3yCFuSS3Z/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="instagram">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+6" alt="Reel 6" />
+        </div>
+        <div class="info">
+          <h3>Reel 6</h3>
+          <p>Instagram reel — energetic cuts & captions.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DWd94CgCAWD/embed/">View Edit</button>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="shorts">
+        <div class="thumbnail">
+          <img src="https://via.placeholder.com/400x225/111/fff?text=Reel+7" alt="Reel 7" />
+        </div>
+        <div class="info">
+          <h3>Reel 7</h3>
+          <p>Instagram reel — fast transitions & effects.</p>
+          <button class="view-btn" data-src="https://www.instagram.com/reel/DWOsWYTD__E/embed/">View Edit</button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button id="closeBtn" class="close-btn">&times;</button>
+      <div id="embedWrapper" class="embed-wrapper"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Portfolio by <strong>Mohit Jangra</strong></p>
+    <p>Software: Adobe Premiere Pro, Adobe After Effects, CapCut PC</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
